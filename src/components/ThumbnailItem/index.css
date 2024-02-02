@@ -1,0 +1,38 @@
+/* Write your code here. */
+.thumbnailItem {
+  list-style-type: none;
+}
+.thumbnail-btn {
+  background-color: transparent;
+  border-width: 0;
+  padding: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.btn-image {
+  height: 45px;
+  width: 45px;
+  opacity: 1;
+}
+.btn-image-active {
+  opacity: 0.5;
+  height: 45px;
+  width: 45px;
+}
+@media screen and (min-width: 768px) {
+  .thumbnail-btn {
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .btn-image {
+    height: 65px;
+    width: 65px;
+    opacity: 1;
+  }
+  .btn-image-active {
+    opacity: 0.5;
+    height: 65px;
+    width: 65px;
+  }
+}

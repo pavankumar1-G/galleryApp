@@ -1,0 +1,44 @@
+/* Write your code here. */
+.app-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.content-container {
+  font-family: Roboto;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  align-items: flex-start;
+  max-width: 1140px;
+}
+.image {
+  height: 99%;
+  width: 99%;
+}
+.heading {
+  font-size: 15px;
+}
+.description {
+  font-size: 10px;
+}
+.imagesList {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    height: 99%;
+    width: 99%;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .description {
+    font-size: 18px;
+  }
+}
